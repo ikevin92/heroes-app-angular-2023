@@ -42,7 +42,7 @@ export class AuthService {
 
   logout() {
     this.user = undefined;
-    // localStorage.removeItem('token'); // localStorage.clear();
+    // localStorage.removeItem('token');
     localStorage.clear();
   }
 }
